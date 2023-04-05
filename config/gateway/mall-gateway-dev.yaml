@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: localhost # Redis服务器地址
+    host: 172.31.7.118 # Redis服务器地址
     database: 0 # Redis数据库索引（默认为0）
     port: 6379 # Redis服务器连接端口
     password: # Redis服务器连接密码（默认为空）
@@ -9,10 +9,10 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: 'http://localhost:8201/mall-auth/rsa/publicKey'
+          jwk-set-uri: 'http://172.31.7.118:8201/mall-auth/rsa/publicKey'
 logging:
   level:
     root: info
     com.macro.mall: debug
 logstash:
-  host: localhost
+  host: 172.31.7.118
