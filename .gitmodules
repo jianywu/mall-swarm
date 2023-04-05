@@ -1,0 +1,3 @@
+[submodule "middleware/nacos-docker"]
+	path = middleware/nacos-docker
+	url = https://github.com/nacos-group/nacos-docker.git
